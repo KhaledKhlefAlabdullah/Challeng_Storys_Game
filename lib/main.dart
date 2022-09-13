@@ -22,8 +22,7 @@ class MyApp extends StatelessWidget {
             'Welcome In SplashScreen',
             style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
           ),
-          image: new Image.network(
-              'https://flutter.io/images/catalog-widget-placeholder.png'),
+          image: Image.asset('images/d1.jpg'),
           backgroundColor: Colors.white,
           loaderColor: Colors.red,
         ));
